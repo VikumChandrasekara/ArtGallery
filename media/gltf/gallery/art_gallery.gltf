@@ -27,7 +27,8 @@
                 11,
                 12,
                 13,
-                14
+                14,
+                15
             ]
         }
     ],
@@ -313,6 +314,20 @@
                 0.3948383331298828,
                 -1.9832967519760132
             ]
+        },
+        {
+            "mesh" : 15,
+            "name" : "Wood floor 1",
+            "scale" : [
+                1.0547609329223633,
+                8.27785587310791,
+                7.749802589416504
+            ],
+            "translation" : [
+                0.4894883334636688,
+                -3.0196337699890137,
+                -1.9279289245605469
+            ]
         }
     ],
     "materials" : [
@@ -522,6 +537,20 @@
             "doubleSided" : true,
             "name" : "Paint red",
             "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Floor",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5,
+                    0.38556623458862305,
+                    0.14063026010990143,
+                    1
+                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
             }
@@ -735,6 +764,20 @@
                     },
                     "indices" : 50,
                     "material" : 14
+                }
+            ]
+        },
+        {
+            "name" : "Plane.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 51,
+                        "TEXCOORD_0" : 52,
+                        "NORMAL" : 53
+                    },
+                    "indices" : 54,
+                    "material" : 15
                 }
             ]
         }
@@ -1253,6 +1296,40 @@
             "componentType" : 5123,
             "count" : 372,
             "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 51,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                7.758292198181152,
+                0.04119609296321869,
+                1.070590853691101
+            ],
+            "min" : [
+                5.63173770904541,
+                -0.008803904056549072,
+                -1.0618778467178345
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 52,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 53,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 54,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
@@ -1561,6 +1638,30 @@
             "byteLength" : 744,
             "byteOffset" : 1792500,
             "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 1793244,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 1793532,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 1793724,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 1794012,
+            "target" : 34963
         }
     ],
     "samplers" : [
@@ -1571,7 +1672,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 1793244,
+            "byteLength" : 1794084,
             "uri" : "art_gallery.bin"
         }
     ]
