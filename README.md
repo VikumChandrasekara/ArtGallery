@@ -1,2 +1,2 @@
 # webxr-js-hit-test
-Group Details :-
+Link: https://allinreality.github.io/webxrapi_tutorial/
